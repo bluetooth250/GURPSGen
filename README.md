@@ -11,7 +11,7 @@ While I don't know whether I am permitted to add a Creative Commons license to m
 ## Current Generators
 
 #### ArmourGen
-An automation of the rules from *Eidetic Memory: Low-Tech Armour Design* and *Eidetic Memory: Cutting Edge Armour Design* from **_Pyramid #3/??_** and **_Pyramid #3/85_**, respectively. The rules have been expanded upon where necessary to make the generator more complete, generic and customisable. Eventually, the program will also be able to randomly generate armours from input parameters and constraints.
+An automation of the rules from *Eidetic Memory: Low-Tech Armour Design* and *Eidetic Memory: Cutting Edge Armour Design* from **_Pyramid #3/52_** and **_Pyramid #3/85_**, respectively. The rules have been expanded upon where necessary to make the generator more complete, generic and customisable. Eventually, the program will also be able to randomly generate armours from input parameters and constraints.
 
 #### EnergyWeaponGen
 An automation of the rules from *Eidetic Memory: Blaster & Laser Design* from **_Pyramid #3/37_**. The rules have been expanded upon to make the generator more complete, generic and customisable. Eventually, the program will also be able to randomly generate armours from input parameters and constraints.
