@@ -13,11 +13,27 @@ While I don't know whether I am permitted to add a Creative Commons license to m
 #### ArmourGen
 An automation of the rules from *Eidetic Memory: Low-Tech Armour Design* and *Eidetic Memory: Cutting Edge Armour Design* from **_Pyramid #3/52_** and **_Pyramid #3/85_**, respectively. The rules have been expanded upon where necessary to make the generator more complete, generic and customisable. Eventually, the program will also be able to randomly generate armours from input parameters and constraints.
 
+*Status: Functional but incomplete*
+
 #### EnergyWeaponGen
 An automation of the rules from *Eidetic Memory: Blaster & Laser Design* from **_Pyramid #3/37_**. The rules have been expanded upon to make the generator more complete, generic and customisable. Eventually, the program will also be able to randomly generate armours from input parameters and constraints.
 
+*Status: Functional (?) but incomplete*
+
 #### GunGen
-An automation of the projectile weapon rules from the much-maligned **_GURPS 3e Vehicles_** to create custom projectile weapons. Eventually, the program will also be able to randomly generate armours from input parameters and constraints.
+An automation of the projectile weapon creation rules from the much-maligned **_GURPS 3e Vehicles_** to create custom projectile weapons. Eventually, the program will also be able to randomly generate armours from input parameters and constraints.
+
+*Status: Nonfunctional skeleton*
+
+#### MeleeWeaponGen
+Will generate melee weapons, including both Low-Tech and Ultra-Tech options.
+
+*Status: Nonfunctional skeleton*
+
+#### TreasureGen
+Will generate miscellaneous treasure according to the rules in **_Dungeon Fantasy 8: Treasure Tables_**: coins, spices, fabrics, statues, idols, paintings, vases, pots, containers, drinks, food, etc.
+
+*Status: Partially functional but untested*
 
 ## Planned Generators
 
@@ -29,12 +45,6 @@ Will generate cargo lots and passengers according to the rules in **_Spaceships 
 
 #### EnchantGen
 Will generate enchantments according to the rules in **_Dungeon Fantasy 8: Treasure Tables_**, allowing them to be passed to other generators.
-
-#### MeleeWeaponGen
-Will generate melee weapons, including both Low-Tech and Ultra-Tech options.
-
-#### TreasureGen
-Will generate miscellaneous treasure according to the rules in **_Dungeon Fantasy 8: Treasure Tables_**: coins, spices, fabrics, statues, idols, paintings, vases, pots, containers, drinks, food, etc.
 
 ## Development Information
 All code is written in Python 3.5.0, and needs at least Python 3.1+ to run (I think).
