@@ -18,7 +18,7 @@ An automation of the rules from *Eidetic Memory: Low-Tech Armour Design* and *Ei
 #### EnergyWeaponGen
 An automation of the rules from *Eidetic Memory: Blaster & Laser Design* from **_Pyramid #3/37_**. The rules have been expanded upon to make the generator more complete, generic and customisable. Eventually, the program will also be able to randomly generate beam weapons from input parameters and constraints.
 
-*Status: Functional but incomplete*
+*Status: Functional (?) but incomplete*
 
 #### GunGen
 An automation of the projectile weapon creation rules from the much-maligned **_GURPS 3e Vehicles_** to create custom projectile weapons. Eventually, the program will also be able to randomly generate projectile weapons from input parameters and constraints. This will take significantly more work, as 3e weapon statistics are not directly compatible with 4.

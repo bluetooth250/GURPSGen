@@ -95,9 +95,6 @@ def VersionNum(Name):
 	pass
 	return Name
 
-def YearModel(Name):
-	reutrn ("M" + random.randint(2190,2345))
-
 def RomanNumeral(i):
 	numeral_map = tuple(zip(
 		(1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1),

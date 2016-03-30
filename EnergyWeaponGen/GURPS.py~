@@ -1,5 +1,5 @@
 
-def DiceRounder(x):
+def DiceRounder(Dice):
 	"""Takes a dice number in decimal format and returns it in a string in dice+adds format."""
 	IntDice = int(Dice)
 	Fraction = Dice-int(Dice)

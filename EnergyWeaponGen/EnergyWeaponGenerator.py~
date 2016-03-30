@@ -469,7 +469,6 @@ Hotshotted
 
 def UserDefined():
 	#UserDefinedWeapon = eval(InputString)
-	UserDefinedWeapon = EnergyWeapon()
 	while True:
 		WeapConf = eval(input("Input configuration: Beamer, Pistol or Rifle\n"))
 		WeapBeam = eval(input("Input beam type:" + BeamNameList))

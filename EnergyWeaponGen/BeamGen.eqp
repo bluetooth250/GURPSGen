@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<equipment_list unique_id="ijlnv05l:1l63pr2o0pl9s" version="1">
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Light Laser Pistol</description>
+		<tech_level>10</tech_level>
+		<legality_class>3</legality_class>
+		<value>252</value>
+		<weight>1 lb</weight>
+		<ranged_weapon>
+			<damage>3d+2(2) burn</damage>
+			<strength>3</strength>
+			<accuracy>6</accuracy>
+			<range>50/150</range>
+			<rate_of_fire>3</rate_of_fire>
+			<shots>41</shots>
+			<bulk>-1</bulk>
+			<recoil>1</recoil>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>C/41 shots</notes>
+		<categories>
+			<category>Missile Weapon</category>
+			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Laser Hunting Rifle</description>
+		<tech_level>10</tech_level>
+		<legality_class>3</legality_class>
+		<value>1688</value>
+		<weight>3.9 lb</weight>
+		<ranged_weapon>
+			<damage>4d+2(2) burn</damage>
+			<strength>4</strength>
+			<accuracy>12</accuracy>
+			<range>405/1215</range>
+			<rate_of_fire>3</rate_of_fire>
+			<shots>19</shots>
+			<bulk>-3</bulk>
+			<recoil>1</recoil>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Rifle</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>C/19 shots</notes>
+		<categories>
+			<category>Missile Weapon</category>
+			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Laser Revolver</description>
+		<tech_level>10</tech_level>
+		<legality_class>3</legality_class>
+		<value>496</value>
+		<weight>1 lb</weight>
+		<ranged_weapon>
+			<damage>3d+2(2) burn</damage>
+			<strength>3</strength>
+			<accuracy>6</accuracy>
+			<range>147/441</range>
+			<rate_of_fire>3</rate_of_fire>
+			<shots>4</shots>
+			<bulk>-1</bulk>
+			<recoil>1</recoil>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>B/4 shots</notes>
+		<categories>
+			<category>Missile Weapon</category>
+			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Laser Sniper Rifle</description>
+		<tech_level>10</tech_level>
+		<legality_class>2</legality_class>
+		<value>6352</value>
+		<weight>13.7 lb</weight>
+		<ranged_weapon>
+			<damage>7d(2) burn</damage>
+			<strength>8</strength>
+			<accuracy>12</accuracy>
+			<range>1960/5880</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>10</shots>
+			<bulk>-6</bulk>
+			<recoil>1</recoil>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Rifle</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>2C/10 shots</notes>
+		<categories>
+			<category>Missile Weapon</category>
+			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Lightning Pistol</description>
+		<tech_level>9</tech_level>
+		<legality_class>4</legality_class>
+		<value>1728</value>
+		<weight>2.2 lb</weight>
+		<ranged_weapon>
+			<damage>3d burn sur</damage>
+			<strength>5</strength>
+			<accuracy>4</accuracy>
+			<range>101/303</range>
+			<rate_of_fire>3</rate_of_fire>
+			<shots>42</shots>
+			<bulk>-2</bulk>
+			<recoil>1</recoil>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>C/42 shots</notes>
+		<categories>
+			<category>Missile Weapon</category>
+			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Lightning Revolver</description>
+		<tech_level>9</tech_level>
+		<legality_class>4</legality_class>
+		<value>1728</value>
+		<weight>1.8 lb</weight>
+		<ranged_weapon>
+			<damage>3d burn sur</damage>
+			<strength>4</strength>
+			<accuracy>4</accuracy>
+			<range>101/303</range>
+			<rate_of_fire>3</rate_of_fire>
+			<shots>4</shots>
+			<bulk>-2</bulk>
+			<recoil>1</recoil>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>B/4 shots</notes>
+		<categories>
+			<category>Missile Weapon</category>
+			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="3">
+		<quantity>1</quantity>
+		<description>Laser Cartridge Pistol</description>
+		<tech_level>10</tech_level>
+		<legality_class>3</legality_class>
+		<value>500</value>
+		<weight>1.1 lb</weight>
+		<reference></reference>
+		<ranged_weapon>
+			<damage>3d(2) burn</damage>
+			<strength>3</strength>
+			<accuracy>6</accuracy>
+			<range>180/540</range>
+			<rate_of_fire>3</rate_of_fire>
+			<shots>13</shots>
+			<bulk>-1</bulk>
+			<recoil>1</recoil>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<specialization>Pistol</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Beam Weapons</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>B/13 shots. Uses nonrechargeable power cells. </notes>
+		<categories>
+			<category>Missile Weapon</category>
+			<category>Weaponry</category>
+		</categories>
+	</equipment>
+</equipment_list>

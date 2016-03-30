@@ -1,0 +1,41 @@
+
+#A quick program for back-calculating statistics for BeamGen from Ultra-Tech stats.
+
+
+# E, the weight constant
+
+D = 6.0		#Dice of damage
+W = 20.0	#Weight (empty?)
+F = 0.8		#Focal array
+G = 1.0		#Generator
+
+E = D/((W*F*G)**(1/3))
+print(E)
+
+##
+
+# Rb, the base range for the beam
+
+HalfRange = D^2*Rb*Rf
+
+Rb = HalfRange/(Rf*D^2)
+
+##
+
+# Shots base
+
+Shots = (Base*CellNo*CellMod)/D^3
+
+Base = (Shots*D^3)/(CellNo*CellMod)
+
+##
+
+# Bc, the beam cost
+
+Cost = EmptyWeight*Bc*Gc
+
+Bc = Cost/(EmptyWeight*Gc)
+
+Gc = 1.0
+
+

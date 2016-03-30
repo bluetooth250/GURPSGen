@@ -22,7 +22,7 @@ The program is able to automatically write the properties of beam weapons (wheth
 
 ## Known Bugs
 ### Article
-* The number of shots a weapon could fire was prone to inaccuracies due to the complicated nature of adjusting power cell capacity based on TL. Although **_Ultra-Tech_** does mention an increase in power cell capacity per TL, this behaviour is not represented or even mentioned in the statistics for beam weapons, so it has been removed for now, using power cell capacities that are static and based on the TL at the weapon's introduction. It may be re-added in the future, especially if increased shot capacity by TL is confirmed as an intended feature by the designers.
+* The number of shots a weapon could fire was prone to inaccuracies due to the complicated nature of adjusting power cell capacity based on TL. Although **_Ultra-Tech_** does mention an increase in power cell capacity per TL, this behaviour is not represented or even mentioned in the statistics for beam weapons, so it has been removed for now, using power cell capacities that are static and based on the TL of the weapon's introduction. It may be re-added in the future, especially if increased shot capacity by TL is confirmed as an intended feature by the designers.
 * Trying to create copies of weapons from **_Ultra-Tech_** will provide results that are not exactly the same, though the variations are small, typically around 0.2lbs or $100 off. This was acknowledged by the author of the original article.
 * Rifles using rainbow laser, X-ray laser or graser beams have about half the range of equivalent weapons in **_Ultra-Tech_**. This has been fixed with a 'fiddle factor' that is marked clearly in the code.
 
