@@ -4,7 +4,7 @@
 In this repository I keep and work on several different generators for **_GURPS 4e_** from Steve Jackson Games'. Most are in various stages of not-quite-finished but some are functional, if incomplete.
 
 ## Legal Information
-GURPS is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of Tom Coates and is released for free distribution, and not for resale, under the permissions granted in the [Steve Jackson Games Online Policy](http://www.sjgames.com/general/online_policy.html).
+GURPS is a trademark of Steve Jackson Games, and its rules and art are copyrighted by Steve Jackson Games. All rights are reserved by Steve Jackson Games. This game aid is the original creation of bluetooth250 and is released for free distribution, and not for resale, under the permissions granted in the [Steve Jackson Games Online Policy](http://www.sjgames.com/general/online_policy.html).
 
 While I don't know whether I am permitted to add a Creative Commons license to my work in addition to the required Steve Jackson Games legal notice, I would like anyone who looks at or modifies this sourcecode to act in the spirit of the [Attribution-NonCommercial-ShareAlike (BY-NC-SA)](https://creativecommons.org/licenses/by-nc-sa/4.0/) version of the Creative Commons license.
 
