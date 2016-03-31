@@ -208,7 +208,7 @@ class EnergyWeapon:
 		if self.beamType in [Graser,Xray] and self.halfAltRange > 1760:
 			return "{}/{} mi.".format(round(0.5*self.halfRange/1760.0),round(0.5*self.fullRange/1760.0))
 		else:
-			return "{}/{}".format(self.0.5*halfAltRange,0.5*self.fullAltRange)
+			return "{}/{}".format(0.5*self.halfAltRange,0.5*self.fullAltRange)
 	def getWeightString(self):
 		if self.cellNum > 1 and self.powerCell in [D,E,F]:
 			return "{}/{}{}p".format(self.fullWeight,self.cellNum,self.powerCell.name)
@@ -477,6 +477,10 @@ def UserDefined():
 		WeapRoF = eval(input("Input rate of fire: \n"))
 		WeapFocal = eval(input("Input focal array:" + GeneratorNameList))
 		WeapCell = input("Input power cell combination in the form C, 1A, 2D, etc. Add an X for nonrechargable cells or an S for cosmic/superscience cells (e.g. 4BX, 2CS). Leave blank for automatic power cell allocation.\n")
+
+		WeapWavelength = ""
+		WeapScatter = ""
+		WeapPulse = ""
 
 		if WeapBeam == Laser:
 			WeapWavelength = input("Is this laser near-infrared, blue-green or ultraviolet?\nNear-infrared: Press Enter\nBlue-green: Enter BG\nUltraviolet: Enter UV\n")

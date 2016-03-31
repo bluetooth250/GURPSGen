@@ -59,7 +59,7 @@ def AppendToGCSFile(weapon):
 	elif weapon.cellNum == 1 and weapon.powerCell.name in ["D","E","F"]:
 		CellShotsString = "{}/{} shots.".format(weapon.powerCell.name, weapon.shots)
 	elif weapon.cellNum == 1 and weapon.powerCell.name not in ["D","E","F"]:
-		CellShotsString = "{}/{} shots.".format(str(weapon.cellNum)+weapon.powerCell.name), weapon.shots)
+		CellShotsString = "{}/{} shots.".format(str(weapon.cellNum)+weapon.powerCell.name, weapon.shots)
 
 	OutputRangedWeapon1 = RangedWeaponTemplate.format(damage=weapon.getDamageString(),ST=weapon.getSTString(),Acc=weapon.getAccString(),rangestring=weapon.getRangeString(),RoF=weapon.getRoFString(),shots=weapon.shots,bulk=weapon.getBulkString(),recoil=(str(weapon.recoil)),skill=weapon.configuration.name)
 	if "SecondaryMode" in weapon.keywords:
