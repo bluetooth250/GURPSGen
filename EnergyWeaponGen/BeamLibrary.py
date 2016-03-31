@@ -1,4 +1,4 @@
-from classlib import BeamType
+from ClassLibrary import BeamType
 
 # Keyword definitions:
 	# Affliction - this beam causes an affliction, rather than inflicting damage.

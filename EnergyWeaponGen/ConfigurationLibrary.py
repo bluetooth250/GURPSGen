@@ -1,4 +1,4 @@
-from classlib import Configuration
+from ClassLibrary import Configuration
 
 BlankConfiguration = Configuration(
 			name = "",

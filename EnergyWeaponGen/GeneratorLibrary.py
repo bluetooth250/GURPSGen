@@ -1,4 +1,4 @@
-from classlib import Generator
+from ClassLibrary import Generator
 
 BlankGenerator = Generator(
 			name = "",

@@ -1,4 +1,4 @@
-from classlib import FocalArray
+from ClassLibrary import FocalArray
 
 BlankArray = FocalArray(
 			name = "",

@@ -1,4 +1,4 @@
-from classlib import PowerCell
+from ClassLibrary import PowerCell
 
 BlankCell = PowerCell(
 			name = "",
